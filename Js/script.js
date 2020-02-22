@@ -48,7 +48,7 @@ $(function() {
 // owl client slider
 
 $(".owl-carousel").owlCarousel({
-  items: 4.3,
+  items: 4,
   loop: true,
   margin: 150,
   animateOut: "fadeOut",
