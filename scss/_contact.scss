@@ -1,0 +1,95 @@
+.social-section{
+    height: 26vh;
+    display: block;
+    .end-logo{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .social-link{
+        text-align: center;
+        a{
+            color: black;
+            &:hover{
+                color: white;
+                transition: linear 0.1s;
+                
+            }
+            i{
+                
+                padding: 8px;
+                border: 1px solid black;
+                border-radius: 6px;
+                margin-left: 2px;
+                margin-right: 2px;
+                &:hover{
+                    background-color: #00a99d;
+                    border: 1px solid white;
+                    transition: linear 0.1s;
+                }
+                
+            }
+            
+        }
+        
+    }
+}
+.end-section{
+    position: relative;
+    margin-bottom: 550px;
+    
+    .map-section{
+        position: absolute;
+        width: 100%;
+        
+    }
+    
+
+form{
+    position: absolute;
+    z-index: 5;
+    height: 39vh;
+    width: 400px;
+    border: 1px solid rgba(0, 0, 0, 0.39);
+    border-radius: 5px;
+    margin: 6% auto 0 15%;
+    background-color: rgba(255, 255, 255, 0.950);
+    
+    
+    .contact-section{
+        display: flex;
+        flex-direction: column;
+        input{
+            font-size:.9em;
+            padding: 10px;
+            margin-bottom: 25px;
+            outline: none;
+            margin-left: 15px;
+            margin-right: 15px;
+            outline: none;
+            background: none;
+            border: 1px solid #cececebe;
+            border-radius: 8px;
+            &:focus{
+                border-color: #00a99d;
+                transition: ease-in-out 0.2s;
+            }
+            
+        }
+        #name{
+            margin-top: 2em;
+        }
+        #massage{
+            padding-bottom: 80px;
+        }
+        #submit{
+            padding: 12px 12px;
+            font-weight: 600;
+            font-size: .99em;
+            color: white;
+            background-color: #28b1a8e7;
+            border-radius: 9px;
+            cursor: pointer;
+        }
+    }
+  }
+}

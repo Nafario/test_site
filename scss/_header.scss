@@ -1,0 +1,46 @@
+$main-text-color: rgba(87, 86, 86, 0.856);
+$main-color:rgb(0,169,157);
+
+header{
+    top: 0;
+    bottom: 2px;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    background-color: rgba(255, 255, 255, 0.616);
+    
+    
+    ul{
+        margin-top: 1px;
+        display: inline-block;
+        
+        
+        li{
+        display: inline-block;
+        color: white;
+        
+
+        a{
+            color: $main-text-color;
+            font-size: 1.0rem;
+            border-radius: 4px;
+            font-weight: 600;
+            background-color: rgba(0, 169, 158, 0);
+            padding: 9px;
+            text-transform: uppercase;
+
+            &:hover{
+                background-color:rgb(40, 196, 185) ;
+                color: white;
+                transition: ease 0.5s;
+            }
+        }
+      }
+    }
+}
+

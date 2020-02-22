@@ -1,0 +1,47 @@
+html{
+    scroll-behavior: smooth;
+    font-family: 'Raleway', sans-serif;
+}
+.under-title{
+    text-align: center;
+    font-size: .9em;
+    margin-top: 12px;
+    margin-bottom: 8em;
+    color: #bbbbbb;
+}
+.scroll{
+    margin-top: 19px;
+    margin-left: 24rem;
+    transition: step-end 2s;
+    cursor: pointer;
+}
+.active a{
+    background-color: rgb(40, 196, 185);
+    color: white;
+    border-radius: 4px;
+}
+
+.text2{
+    font-size: 0.9rem;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+.text1{
+    
+    font-size: 0.9rem;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    margin-bottom: 5rem;
+}
+
+@import "start";
+@import "header";
+@import "main";
+@import "features";
+@import "progress";
+@import "teams";
+@import "clients";
+@import "contact";
+@import "footer";
+@import "responsive";
+

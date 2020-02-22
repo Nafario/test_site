@@ -1,0 +1,70 @@
+.skill-section{
+    height: 65vh;
+    background-color: #2e2d2d;
+    width: 100%;
+}
+
+.progress-title{
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    vertical-align: middle;
+    margin-top: 9em; 
+    .left2{
+        display: none;
+    }
+    .right2{
+        display: none;
+    }
+    img{
+        margin-top: 14px;
+        margin-left: 3px;
+        margin-right: 3px;
+        
+    }
+    h1{
+        font-size: 40px;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: white;
+        span{
+            color: rgb(0,169,157);
+        }
+    }
+}
+.progress{
+    margin-left: 16%;
+    margin-right: 16%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+    
+    }
+    .box{
+        
+    p{
+        text-align: center;
+        color: #8a8a8a;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 0.9em;
+        margin-top: 20px;
+    }
+    .chart{
+        position: relative;
+        width: 110px;
+        height: 110px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 1.4em;
+        font-weight: 600;
+        line-height: 110px;
+        color: white;
+        
+    }
+    canvas{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}

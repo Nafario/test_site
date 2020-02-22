@@ -1,0 +1,56 @@
+.client-logo{
+    height: 28vh;
+    background-color: #383838;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: baseline;
+    margin-bottom: -165px;
+    
+    .owl-carousel{
+        width: 70%;
+    }
+    img{
+        margin-top: 50px;
+        height: 123px;
+        padding: 20px 40px 20px 40px;
+        background-color: #2e2e2e41;
+        margin-left: 10px;
+        margin-right: 20px;
+        &:hover{
+            background-color: #2b2a2a98;
+        }
+    }
+}
+.slider{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 160px;
+    cursor: pointer;
+    
+    .fa-caret-left{
+        font-size: 25px;
+        color: white;
+        padding: 4px 12px 4px 8px;
+        border-radius: 5px;
+        background-color: #00a99d;
+        &:hover{
+            background-color: white;
+            color: #00a99d;
+        }
+
+    }
+    .fa-caret-right{
+        font-size: 25px;
+        color: white;
+        padding: 4px 8px 4px 12px;
+        border-radius: 5px;
+        background-color: #00a99d;
+        &:hover{
+            background-color: white;
+            color: #00a99d;
+        }
+        
+    }
+}

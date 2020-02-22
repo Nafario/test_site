@@ -1,0 +1,87 @@
+$main-color:rgb(0,169,157);
+$main-text-color: rgb(87, 86, 86);
+.team-section{
+    height: 90vh;
+    margin-left: 6%;
+    margin-right: auto;
+}
+.team-members{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    .team-member{
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: normal;
+        width: 304px;
+        border: 1px solid rgba(0, 0, 0, 0.212);
+        hr{
+            width: 120px;
+            opacity: 0.4;
+            margin-bottom: 25px;
+        }
+        img{
+            position: relative;
+            margin-bottom: -21px;
+            z-index: -1;
+        }
+        h1{
+            font-weight: 600;
+            font-size: .9em;
+            color: white;
+            background-color: $main-color;
+            margin: 0 85px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 6px;
+            &:hover{
+                background-color: $main-text-color;
+            }
+        }
+        h2{
+            margin-top: 15px;
+            font-weight: 600;
+            font-size: .7em;
+        }
+        p{
+            font-weight: 700;
+            font-size: .8em;
+            margin-bottom: 15px;
+            text-transform: lowercase;
+            &:hover{
+                color: $main-color;
+            }
+        }
+    }
+}
+.quote-section{
+    height: 45vh;
+    background-color: $main-color;
+    text-align: center;
+    text-transform: uppercase;
+    .quotes{
+        padding-top: 125px;
+        display: flex;
+        flex-direction: column;
+        h1{
+            align-self: center;
+            font-weight: 700;
+            font-size: 14pt;
+            background-color: white;
+            width: 400px;
+            padding: 10px;
+            border-radius: 5px;
+            color: $main-color;
+            span{
+                color: $main-text-color;
+                font-size: 10pt;
+            }
+        }
+        p{
+            font-size: 1.1em;
+            margin: 45px 10% 10%;
+            color: white;
+        }
+        
+    }
+}
